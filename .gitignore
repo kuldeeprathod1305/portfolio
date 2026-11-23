@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+
+# editor & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# logs & local tooling
+*.log
+npm-debug.log*
+.vercel
+qa/
